@@ -22,13 +22,14 @@ const Logo = () => {
       .timeline()
       .to(bgRef.current, {
         duration: 1,
-        opacity: 0.9,
+        opacity: 0.7,
       })
       .from(outlineLogoRef.current, {
         drawSVG: 0,
-        duration: 6,
+        duration: 5,
       })
 	  .to(outlineLogoRef.current, {
+		duration: 2,
         opacity:0
       })
 

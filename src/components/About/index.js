@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGit, faGitAlt, faHtml5, faJs, faJsSquare, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
+import Loader from 'react-loaders';
 
 const About = () => 
  {
@@ -15,6 +16,7 @@ const About = () =>
     }, [])
 
     return(
+        <>
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
@@ -39,7 +41,7 @@ const About = () =>
                     <FontAwesomeIcon icon={faCss3} color='#28A4D9'></FontAwesomeIcon>
                 </div>
                 <div className='face3'>
-                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D'></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faJs} color='#EFD81D'></FontAwesomeIcon>
                 </div>
                 <div className='face4'>
                     <FontAwesomeIcon icon={faReact} color='#5ED4F4'></FontAwesomeIcon>
@@ -56,6 +58,8 @@ const About = () =>
             </div>
         </div>
         </div>
+        <Loader type='pacman'></Loader>
+        </>
     )
 }
 

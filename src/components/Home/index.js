@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 import LogoTitle from "../../assets/images/logo-s.png"
-import LogoTitleM from "../../assets/images/logo-s-dark.png"
-import './index.scss'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AnimatedLetters from "../AnimatedLetters";
-import { useEffect } from "react";
 import Logo from "./Logo";
 import Loader from "react-loaders";
+import './index.scss'
+
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')

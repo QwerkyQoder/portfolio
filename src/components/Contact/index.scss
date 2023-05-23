@@ -116,4 +116,21 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .contact-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .info-map {
+        position: initial;
+        text-align: center;
+        margin: 10%;
+    }
+    .map-wrap {
+        float:initial;
+        width: 500px;
+        height: 500px;
+        margin: 10%;
+    }
 }

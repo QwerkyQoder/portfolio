@@ -57,7 +57,7 @@ const Logo = () => {
         alt="JavaScript,  Developer"
       />
 
-      <svg
+      {/* <svg
         width="559pt"
         height="897pt"
         version="1.0"
@@ -151,7 +151,7 @@ M42.317871,156.905502
 z"
           />
         </g>
-      </svg>
+      </svg> */}
     </div>
   )
 }

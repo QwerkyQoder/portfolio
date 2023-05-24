@@ -41,7 +41,7 @@
 
 
 .about-page,
-.contact-page
+.contact-page,
 .portfolio-page {
     .text-zone {
         position: absolute;
@@ -121,7 +121,7 @@
         height: auto;
         min-height: auto;
 
-        // &.contact-page,
+        &.contact-page,
         &.about-page,
         &.portfolio-page{
             .text-zone {

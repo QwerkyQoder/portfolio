@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Layout from './components/Layout'
 
 import './App.scss';
-import Portfolio from '../../portfolio-project/src/components/Portfolio';
+import Portfolio from '../src/components/Portfolio';
 
 function App() {
   return (

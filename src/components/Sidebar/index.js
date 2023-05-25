@@ -3,7 +3,7 @@ import LogoS from "../../assets/images/logo-s.png"
 // import LogoSubtitle from "../../assets/images/logo_sub.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHome, faUser,
-faClose, faBars } from "@fortawesome/free-solid-svg-icons";
+faClose, faBars, faSuitcase } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
@@ -28,10 +28,15 @@ const Sidebar = () => {
             onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e"></FontAwesomeIcon>
             </NavLink>
+            <NavLink activeclassname="active" className="portfolio-link"
+            to="/portfolio" onClick={() => setShowNav(false)}>
+                <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e"></FontAwesomeIcon>
+            </NavLink>
             <NavLink activeclassname="active" to="/contact" className="contact-link"
             onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"></FontAwesomeIcon>
             </NavLink>
+
             <FontAwesomeIcon onClick={() => setShowNav(false)}
             icon={faClose} color="#ff9900" size="3x"
             className="close-icon"></FontAwesomeIcon>
@@ -58,9 +63,6 @@ const Sidebar = () => {
         icon={faBars} color="#ff9900" size="3x" 
         className="hamburger-icon"></FontAwesomeIcon>
         </button>
-        {
-            console.log(showNav)
-        }
     </div>)
 }
 

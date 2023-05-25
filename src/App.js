@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Layout from './components/Layout'
 
 import './App.scss';
+import Portfolio from '../../portfolio-project/src/components/Portfolio';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route index element={<Home/>} ></Route>
         <Route path='about' element={<About/>} ></Route>
         <Route path='contact' element={<Contact></Contact>} ></Route>
+        <Route path='portfolio' element={<Portfolio/>}></Route>
       </Route>
     </Routes>
     </>

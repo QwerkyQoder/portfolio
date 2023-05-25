@@ -1,6 +1,6 @@
 import { useState } from "react"
-import AnimatedLetters from "../../../../portfolio-project/src/components/AnimatedLetters"
-import { render } from "@testing-library/react"
+import AnimatedLetters from "../AnimatedLetters/"
+// import { render } from "@testing-library/react"
 import Loader from "react-loaders"
 import { useEffect } from "react"
 import "./index.scss"

@@ -25,10 +25,10 @@ const About = () =>
                     StrArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']}
                     idx={15}></AnimatedLetters>
                 </h1>
-                <p> I am a software with 9 years of experience.
-                I worked in the Telecom Software Industry for 5.5 years. Here I worked on VoIP and LTE-4g.</p>
-                <p> I have been working as a mentor for Artificial Intelligence and Web Development courses at Udacity since 2019.
-                Now I am a freelance Full Stack Web Developer. </p>
+                <h2> I am a software with 9+ years of experience.
+                At present I am a freelance Full Stack Web Developer. </h2>
+                <p> I have also been working as a mentor for Artificial Intelligence and Web Development courses at Udacity since 2019.</p>
+                <p> I worked in the Telecom Software Industry for 5.5 years in the beginning of my career. Here I worked on VoIP and LTE-4g.</p>
                 <p>I am exploring UI / UX / VUI design. </p>
             </div>
 

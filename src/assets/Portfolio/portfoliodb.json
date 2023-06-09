@@ -1,14 +1,46 @@
 [
     {
         "image": "https://thumbs.dreamstime.com/b/sticky-todo-11106198.jpg",
-        "name": "todo",
+        "name": "Todo List",
         "description" : "Todo FUll stack project",
         "url" : "https://todo-frontend-k2us.onrender.com/"
     },
     {
         "image": "https://img.freepik.com/free-vector/hands-holding-pencils-play-tic-tac-toe-people-drawing-crosses-noughts-simple-game-children-flat-vector-illustration-strategy-concept-banner-website-design-landing-web-page_74855-24786.jpg?w=2000",
-        "name": "TTT",
+        "name": "Tic Tac Toe",
         "description" : "Tic Tac Toe Game",
         "url" : "https://main--tictactoe-game-reactjs.netlify.app/"
+    },
+    {
+        "image":"https://images.unsplash.com/photo-1606819717115-9159c900370b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+        "name": "Photo Gallery",
+        "description": "Photo Gallery",
+        "url": "https://photogallery-70lq.onrender.com/"
+    },
+    {
+        "image": "https://www.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg",
+        "name": "Rock Paper Scissors",
+        "description": "Rock Paper Scissors Game",
+        "url": "https://rockpaperscissorsjavascript.netlify.app/"
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhbGN1bGF0b3J8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "name": "Calculator",
+        "description": "Simple Calculator implemented using Javascript",
+        "url": "https://javascript-basiccalculator.netlify.app/"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/R%C3%98DE_logo.svg/640px-R%C3%98DE_logo.svg.png",
+        "name": "Clone of Rode Home page",
+        "description": "Clone of Rode Home page using pure CSS HTML",
+        "url": "https://rode-clone-tailwind-res.netlify.app/" 
+    },
+    {
+        "image": "https://cdn.shopify.com/static/share-image-common.jpg",
+        "name": "Clone of Shopify Home page",
+        "description": "Clone of Shopify Home page using pure CSS HTML",
+        "url": "https://main--shopify-clone-css-tailwind.netlify.app/" 
     }
+
+    
 ]

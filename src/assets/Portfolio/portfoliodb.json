@@ -6,16 +6,16 @@
         "url" : "https://todouserauthfrontend.onrender.com"
     },
     {
-        "image": "https://img.freepik.com/free-vector/hands-holding-pencils-play-tic-tac-toe-people-drawing-crosses-noughts-simple-game-children-flat-vector-illustration-strategy-concept-banner-website-design-landing-web-page_74855-24786.jpg?w=2000",
-        "name": "Tic Tac Toe",
-        "description" : "Tic Tac Toe Game",
-        "url" : "https://main--tictactoe-game-reactjs.netlify.app/"
-    },
-    {
         "image":"https://images.unsplash.com/photo-1606819717115-9159c900370b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
         "name": "Photo Gallery",
         "description": "Photo Gallery",
         "url": "https://photogallery-70lq.onrender.com/"
+    },
+    {
+        "image": "https://img.freepik.com/free-vector/hands-holding-pencils-play-tic-tac-toe-people-drawing-crosses-noughts-simple-game-children-flat-vector-illustration-strategy-concept-banner-website-design-landing-web-page_74855-24786.jpg?w=2000",
+        "name": "Tic Tac Toe",
+        "description" : "Tic Tac Toe Game",
+        "url" : "https://main--tictactoe-game-reactjs.netlify.app/"
     },
     {
         "image": "https://www.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg",

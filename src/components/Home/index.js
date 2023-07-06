@@ -37,7 +37,7 @@ const Home = () => {
                 StrArray={developer} idx={15}></AnimatedLetters>
 
                 </h1>
-                <h2> Front End Developer / Javascript Expert / Exploring UI / UX / VUI</h2>
+                <h2> Full Stack Web Developer / Javascript Expert / Exploring UI / UX / VUI</h2>
                 <Link to="/contact" className="flat-button" > CONTACT ME</Link>
             </div>
             <Logo/>

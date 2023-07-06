@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 
+
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm = useRef()
@@ -18,9 +19,9 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault()
         emailjs
-        .sendForm('service_f940lr6', 'template_krs9tqk',
+        .sendForm(process.env.REACT_APP_EMAIL_SERVICE_ID,process.env.REACT_APP_EMAIL_TEMPLATE_ID,
             refForm.current,
-            '15naaxIhkyKeDWblF')
+            process.env.REACT_APP_EMAIL_PUBLIC_KEY)
             .then (
             () => {
                 alert('Message successfully sent')

@@ -12,6 +12,18 @@
         "url": "https://photogallery-70lq.onrender.com/"
     },
     {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/R%C3%98DE_logo.svg/640px-R%C3%98DE_logo.svg.png",
+        "name": "Clone of Rode Home page",
+        "description": "Clone of Rode Home page using pure CSS HTML",
+        "url": "https://rode-clone-tailwind-res.netlify.app/" 
+    },
+    {
+        "image": "https://cdn.shopify.com/static/share-image-common.jpg",
+        "name": "Clone of Shopify Home page",
+        "description": "Clone of Shopify Home page using pure CSS HTML",
+        "url": "https://main--shopify-clone-css-tailwind.netlify.app/" 
+    },
+    {
         "image": "https://img.freepik.com/free-vector/hands-holding-pencils-play-tic-tac-toe-people-drawing-crosses-noughts-simple-game-children-flat-vector-illustration-strategy-concept-banner-website-design-landing-web-page_74855-24786.jpg?w=2000",
         "name": "Tic Tac Toe",
         "description" : "Tic Tac Toe Game",
@@ -28,19 +40,5 @@
         "name": "Calculator",
         "description": "Simple Calculator implemented using Javascript",
         "url": "https://javascript-basiccalculator.netlify.app/"
-    },
-    {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/R%C3%98DE_logo.svg/640px-R%C3%98DE_logo.svg.png",
-        "name": "Clone of Rode Home page",
-        "description": "Clone of Rode Home page using pure CSS HTML",
-        "url": "https://rode-clone-tailwind-res.netlify.app/" 
-    },
-    {
-        "image": "https://cdn.shopify.com/static/share-image-common.jpg",
-        "name": "Clone of Shopify Home page",
-        "description": "Clone of Shopify Home page using pure CSS HTML",
-        "url": "https://main--shopify-clone-css-tailwind.netlify.app/" 
     }
-
-    
 ]

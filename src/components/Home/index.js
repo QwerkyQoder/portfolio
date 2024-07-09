@@ -38,6 +38,7 @@ const Home = () => {
 
                 </h1>
                 <h2> Full Stack Web Developer / Javascript Expert / Exploring UI / UX / VUI</h2>
+                <h2> Open Source contributor at Mozilla <a href="https://bugzilla.mozilla.org/user_profile?user_id=731824">Mozilla Profile</a></h2>
                 <Link to="/contact" className="flat-button" > CONTACT ME</Link>
             </div>
             <Logo/>

@@ -1,9 +1,15 @@
 [
     {
         "image": "https://thumbs.dreamstime.com/b/sticky-todo-11106198.jpg",
-        "name": "Todo List",
+        "name": "Todo List - Full Stack",
         "description" : "Todo FUll stack project",
         "url" : "https://todouserauthfrontend.onrender.com"
+    },
+    {
+        "image": "https://img.freepik.com/free-vector/realistic-supermarket-trolley-full-items_1284-35992.jpg",
+        "name": "Redux shopping cart",
+        "description" : "Shopping cart implemented using Redux",
+        "url" : "https://redux-shopping-cart-m7m3.onrender.com"
     },
     {
         "image":"https://images.unsplash.com/photo-1606819717115-9159c900370b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
